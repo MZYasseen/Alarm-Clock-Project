@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles/style.css">   
+        <title>Alarm Clock</title>
+</head>
+<body>
+    <h1>Set Your Alarm</h1>    
+        <div id="clock"></div>
+        <div id="newAlarm">
+            <input onchange="setAlarmTime(this.value)" name="alarmTime" type="datetime-local" class="button">
+            <input onclick="setAlarm()" type="submit" name="alarmTime" value="Add Alarm" class="button" id="btn">
+            <section id="allAlarms">
+                
+
+            </section>
+            
+
+        </div>
+        <div id="alarm-text"></div>
+        <button id="clear-alarm" onclick="clearAlarm()">Clear Alarm</button>
+        </div>
+            
+          
+            <script src="js/script.js"></script>
+</body>
+</html>
