@@ -27,13 +27,14 @@ seconds = "0" + seconds;
    document.getElementById('clock').textContent = hours + ":" + minutes + ":" + seconds + " " + zone;
 }
 
-const btn = document.getElementById('btn');
+/* const btn = document.getElementById('btn');
 
 btn.addEventListener('click', function onClick() {
   btn.style.backgroundColor = 'gray';
   btn.style.color = 'white';
 
 });
+*/
 function setAlarmTime(value){
   alarmTime = value;
   console.log(alarmTime);
