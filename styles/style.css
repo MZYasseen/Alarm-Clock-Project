@@ -64,6 +64,9 @@ h1{
     
     
 }
+#btn:active{
+      background-color: gray;
+}
 #clear-alarm{
     display: flex;
     align-items: center;
@@ -81,6 +84,9 @@ margin-top:5px;
     border: black;
     box-shadow: 0px 0px 2px 2px rgb(0,0,0);
 
+}
+#clear-alarm:active{
+    background-color: #777b7e;
 }
 #newAlarm{
     display: flex;
